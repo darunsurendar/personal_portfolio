@@ -1,0 +1,53 @@
+** {
+    padding:0;
+    margin: 0;
+}
+body{
+
+}
+.nav{
+    display:flex;
+    justify-content: space-around;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.manu{
+    display: flex;
+    padding: 1em;
+    
+}
+.logo{
+    display: flex;
+    margin: 1em;
+    align-items: center;
+
+}
+.itam{
+    padding: 1em;
+}
+.img{
+    padding-right: 1em;
+}
+
+@media screen and (max-width:600px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+    .manu{
+       
+        align-items: center;
+        padding: 0px;
+
+    }
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img{
+        padding-right: 0px;
+    }
+}
